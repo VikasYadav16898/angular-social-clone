@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "11-insta-angular-clone:build:production",
+            "firebaseProject": "angular-signup-bf2d1",
+            "firebaseHostingSite": "angular-signup-bf2d1"
+          }
         }
       }
     }

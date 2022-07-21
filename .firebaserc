@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-signup-bf2d1": {
+      "hosting": {
+        "11-insta-angular-clone": [
+          "angular-signup-bf2d1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-signup-bf2d1"
+  }
+}
