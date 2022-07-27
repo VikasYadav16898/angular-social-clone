@@ -24,12 +24,7 @@
     <div class="navbar-nav ml-auto">
       <!-- if the user is present then printing email -->
       <div *ngIf="email" class="navbar-text float-left">{{ email }}</div>
-      <a
-        [routerLink]="['/']"
-        routerLinkActive="active"
-        class="nav-item nav-link"
-        >Home</a
-      >
+      <a [routerLink]="['/']" class="nav-item nav-link">Home</a>
       <!-- conditionally rendering links  -->
       <a
         *ngIf="!email"
